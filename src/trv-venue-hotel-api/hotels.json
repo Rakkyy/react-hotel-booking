@@ -1,0 +1,291 @@
+{
+  "hotels": [
+    {
+      "id": "61c9665f-3c08-45ec-88d3-5029af3269c8",
+      "name": "Developer-friendly hotel",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "distance_to_venue": 800,
+      "rating": 3.2,
+      "price_category": "medium",
+      "amenities": [
+        "free_parking",
+        "free_wifi"
+      ],
+      "images": [
+        "http://localhost:5000/images/image1.jpg",
+        "http://via.placeholder.com/140x100",
+        "http://via.placeholder.com/100x140"
+      ],
+      "rooms": [
+        {
+          "id": "45db9853-7cec-47bf-ba3d-3ba765061427",
+          "name": "Deluxe suite",
+          "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architect.",
+          "max_occupancy": 5,
+          "price_in_usd": 53.5
+        },
+        {
+          "id": "r3wb9853-7cec-47bf-ba3d-3b34r5061db7",
+          "name": "Executive suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 89.5
+        },
+        {
+          "id": "4w2b9853-7cec-47bf-ba3d-3b4ew5061db7",
+          "name": "Studio suite",
+          "description": "dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam",
+          "max_occupancy": 3,
+          "price_in_usd": 45
+        },
+        {
+          "id": "89wb9853-7cec-47bf-ba3d-3ba7653wqdb7",
+          "name": "Standard suite",
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+          "max_occupancy": 8,
+          "price_in_usd": 34.9
+        }
+      ]
+    },
+    {
+      "id": "456erw45-45we-45ec-56tw-5029af3266e38",
+      "name": "Beach hotel",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "distance_to_venue": 1000,
+      "rating": 4,
+      "price_category": "high",
+      "amenities": [
+        "free_parking",
+        "free_wifi"
+      ],
+      "images": [
+        "http://localhost:5000/images/image2.jpg",
+        "http://via.placeholder.com/140x100",
+        "http://via.placeholder.com/100x140"
+      ],
+      "rooms": [
+        {
+          "id": "bf2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 58.9
+        },
+        {
+          "id": "bf2b9233-7cec-474e-ba3d-3ba7654r1db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 78.9
+        },
+        {
+          "id": "3f223853-7cec-47bf-b3ed-3ba765461db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 63.4
+        },
+        {
+          "id": "562b9853-7cec-47bf-ba3d-3ba7ed061567",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 38.6
+        }
+      ]
+    },
+    {
+      "id": "673etw45-45tb-76rt-88d3-46eraf34try8",
+      "name": "Lake view hotel",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "distance_to_venue": 500,
+      "rating": 4.3,
+      "price_category": "high",
+      "amenities": [
+        "free_parking",
+        "free_wifi"
+      ],
+      "images": [
+        "http://localhost:5000/images/image3.jpg",
+        "http://via.placeholder.com/140x100",
+        "http://via.placeholder.com/100x140"
+      ],
+      "rooms": [
+        {
+          "id": "4e2b9853-7cec-47bf-ba3d-3ba765r61d6t",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 5,
+          "price_in_usd": 37.0
+        },
+        {
+          "id": "342b9853-7cec-47bf-ba3d-3ba764e61d45",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 5,
+          "price_in_usd": 34.5
+        },
+        {
+          "id": "67wb9853-7cec-47bf-ba3d-3ba763ie1db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 10,
+          "price_in_usd": 98
+        },
+        {
+          "id": "982b9853-7cec-47bf-ba3d-3ba345061d9u",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 6,
+          "price_in_usd": 45.3
+        }
+      ]
+    },
+    {
+      "id": "984rts34-3c08-7v89-49dr-5kf67f356ik8",
+      "name": "City hotel",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "distance_to_venue": 200,
+      "rating": 2.9,
+      "price_category": "low",
+      "amenities": [
+        "free_parking",
+        "free_wifi"
+      ],
+      "images": [
+        "http://localhost:5000/images/image4.jpg",
+        "http://via.placeholder.com/140x100",
+        "http://via.placeholder.com/100x140"
+      ],
+      "rooms": [
+        {
+          "id": "7yeb9853-7cec-47bf-ba3d-3ba76506164t",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 34.0
+        },
+        {
+          "id": "46wb9853-7cec-47bf-ba3d-3ba76506147u",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 3,
+          "price_in_usd": 78.9
+        },
+        {
+          "id": "20ob9853-7cec-47bf-ba3d-3ba76506145d",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 1,
+          "price_in_usd": 20.0
+        },
+        {
+          "id": "8ueb9853-7cec-47bf-ba3d-3ba76506146w",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 5,
+          "price_in_usd": 89.4
+        }
+      ]
+    },
+    {
+      "id": "4r56d783-45ed-45ec-56cf-502945mk6945",
+      "name": "Hotel Multi cuisine",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "distance_to_venue": 700,
+      "rating": 3.6,
+      "price_category": "medium",
+      "amenities": [
+        "free_parking",
+        "free_wifi"
+      ],
+      "images": [
+        "http://localhost:5000/images/image5.jpg",
+        "http://via.placeholder.com/140x100",
+        "http://via.placeholder.com/100x140"
+      ],
+      "rooms": [
+        {
+          "id": "38wb9853-7cec-47bf-ba3d-3ba76506147w",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 74.0
+        },
+        {
+          "id": "92ub9853-7cec-47bf-ba3d-3ba76506148w",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 3,
+          "price_in_usd": 45.3
+        },
+        {
+          "id": "35wb9853-7cec-47bf-ba3d-3ba765061340",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 10,
+          "price_in_usd": 56.3
+        },
+        {
+          "id": "309b9853-7cec-47bf-ba3d-3ba7650614ne",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 74
+        }
+      ]
+    },
+    {
+      "id": "45erst62-3c08-3409-4b2w-5040cff35erc8",
+      "name": "Hotel Redz",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "distance_to_venue": 500,
+      "rating": 4.2,
+      "price_category": "medium",
+      "amenities": [
+        "free_parking",
+        "free_wifi"
+      ],
+      "images": [
+        "http://localhost:5000/images/image6.jpg",
+        "http://via.placeholder.com/140x100",
+        "http://via.placeholder.com/100x140"
+      ],
+      "rooms": [
+        {
+          "id": "3o9b9853-7cec-47bf-ba3d-3ba7650614e9",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 8,
+          "price_in_usd": 45.3
+        },
+        {
+          "id": "8w0b9853-7cec-47bf-ba3d-3ba76506167w",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 5,
+          "price_in_usd": 57.4
+        },
+        {
+          "id": "87eb9853-7cec-47bf-ba3d-3ba7650687d7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 9,
+          "price_in_usd": 56
+        },
+        {
+          "id": "43wb9853-7cec-47bf-ba3d-3ba7650667s7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 34.9
+        }
+      ]
+    }
+  ],
+  "User": [
+      {
+          "name":"John"
+      }
+  ]
+}

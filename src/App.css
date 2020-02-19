@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgb(73,79,82);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+.App {
+  text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(73,79,82);
+    color: white;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.hotelItem {
+    padding: 10px;
+    border-bottom: solid 0.5px rgb(73,79,82);
+    cursor: pointer;
+}
+
+.active {
+    color:red;
+}
+
+.hotelsList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.hotelDetails {
+    display: block;
+    font-weight: bold; 
+    margin-top: 5px
+}
+
+.hideButton {
+    display: none;
+}
+
+.loadMore, .bookNow, .adminForm button {
+    background-color: rgb(73,79,82);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 28px;
+}
+
+.roomsList {
+    width: 50%;
+    border-bottom: solid 0.5px rgb(73,79,82);
+    padding: 5px;
+}
+
+.roomsList span {
+    display: block;
+    margin: 5px;
+}
+
+.roomsList label {
+    font-weight: 700;
+}
+
+.filter {
+    background-color: rgb(73,79,82);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+}
+
+.confirmPage span {
+    display: block;
+    padding: 5px;
+}
+
+.confirmPage label {
+    font-weight: 700;
+}
+
+.adminForm label {
+    display: flex;
+    padding: 5px;
+}
+
+.adminForm input {
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.adminForm button {
+    display: block;
+    margin: 8px;
+}
